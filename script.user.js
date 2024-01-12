@@ -18,7 +18,7 @@
 			.querySelectorAll( `ytd-item-section-renderer` )
 			.forEach( e =>
 			{
-				is_live = e.querySelector( `.badge-style-type-live-now-alternate` )
+				const is_live = e.querySelector( `.badge-style-type-live-now-alternate` )
 				if( is_live )
 				{
 					e.style.display = 'none'
